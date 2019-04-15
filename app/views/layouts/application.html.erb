@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
   <head>
     <title>Splurty</title>
@@ -13,6 +13,7 @@
 
     <header class="row">
       <div class="col-3">
+        <%= link_to root_path, class:'logo' do %>
         <div class="circle">
           <br/>
           You know
@@ -21,12 +22,13 @@
           <br />
           To KNOW
         </div>
+        <% end %>
       </div>
       <div class="col-4 slogan">
         Splurting out unsolicited advise about entrepreneurship since 2016
       </div>
       <div class="col-5 links">
-        <%= link_to 'Contribute', '#'%>
+        <%= link_to 'Contribute', new_quote_path %>
         <%= link_to 'About', '#' %>
     </header>
 
