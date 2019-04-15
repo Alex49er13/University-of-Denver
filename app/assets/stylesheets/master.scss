@@ -47,11 +47,13 @@ hr{
 }
   h1 {
   font-family: 'Indie Flower', cursive;
-
+  font-weight:bold;
+  Font-size:48px;
   }
 
 h2 {
  font-family: 'Indie Flower', cursive;
+
 }
 
 .next-quote {
@@ -70,4 +72,21 @@ h2 {
 
 .about{
     font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+}
+p{
+  font-size: 20px;
+}
+@media(max-width: 750px) {
+  .foot-blurb{
+  text-align: left;
+  }
+}
+.modal {
+  font-family: 'Indie Flower', cursive;
+}
+h2 span {
+  color:#DF1598
+}
+::selection{
+  background-color:#f84342
 }
